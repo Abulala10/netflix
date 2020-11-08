@@ -1,2 +1,3 @@
 # netflix
-comparing number of movies and tv shows on netflix and how many movies and tv shows are added in a particular year. 
+Comparing How much movies and Tv Shows are added on Netflix.
+Movie's and TV Show's added in a particular Year.
