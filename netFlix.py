@@ -22,7 +22,7 @@ class Netflix:
         except FileNotFoundError as fnf:
             print('1 :', fnf)
 
-    def countries_type_on_netflix(self, movie_show):
+    def countries_type_on_netflix(self, movie_show): # movie_tv_pie is the ooutput of this function.
         try:
             label = ['Number of Movies', 'Number of TV Shows']
             tv_movie = movie_show.value_counts()
@@ -35,7 +35,7 @@ class Netflix:
         except Exception as e:
             print(e)
 
-    def content_added_over_years(self, year, tv_movie):
+    def content_added_over_years(self, year, tv_movie): # content_added_over_years.png is the output of this function.
         try:
             growth = year.value_counts().reset_index()
             Movie_index = growth['index'].where(tv_movie == 'Movie')
